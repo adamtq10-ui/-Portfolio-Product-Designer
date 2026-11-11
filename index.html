@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jenny – Product Designer | JCREA Portfolio</title>
+  <meta name="description" content="Portfolio of Jenny, a product designer with 10 years of experience in UI/UX, web design and landing pages.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link nav__link--active" href="#home" aria-current="page">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#services">Service</a></li>
+          <li>
+            <a class="nav__logo" href="#home" aria-label="JCREA – home">
+              <img src="images/logo-icon.svg" alt="" width="46" height="46">
+              <img src="images/logo-text.svg" alt="JCREA" width="83" height="19">
+            </a>
+          </li>
+          <li><a class="nav__link" href="#resume">Resume</a></li>
+          <li><a class="nav__link" href="#projects">Project</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__intro">
+        <div class="hero__greeting">
+          <p class="hero__badge">Hello!</p>
+          <img class="hero__spark" src=" alt="" width="28" height="29">
+        </div>
+        <h1 class="hero__title" id="hero-title">
+          I’m <span class="text-accent">Jenny</span>,<br>Product Designer
+        </h1>
+        <img class="hero__spark hero__spark--left" src="images/hero-spark-left.svg" alt="" width="72" height="75">
+      </div>
+
+      <blockquote class="hero__quote">
+        <img src="images/icon-quote.svg" alt="" width="36" height="36">
+        <p>Jenny’s Exceptional product design<br>ensure our website’s success.<br>Highly Recommended</p>
+      </blockquote>
+
+      <div class="hero__rating">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">
+          <img src="images/icon-star.svg" alt="" width="32" height="32">
+          <img src="images/icon-star.svg" alt="" width="32" height="32">
+          <img src="images/icon-star.svg" alt="" width="32" height="32">
+          <img src="images/icon-star.svg" alt="" width="32" height="32">
+          <img src="images/icon-star.svg" alt="" width="32" height="32">
+        </div>
+        <p class="hero__experience">
+          <strong>10 Years</strong>
+          <span>Experince</span>
+        </p>
+      </div>
+
+      <div class="hero__visual">
+        <img class="hero__ellipse" src="images/hero-ellipse.svg" alt="">
+        <img class="hero__photo" src="images/hero-woman.png" alt="Portrait of Jenny, smiling, wearing glasses and an orange jacket">
+      </div>
+
+      <div class="glass-cta">
+        <a class="glass-cta__primary" href="#projects">
+          Portfolio
+          <img src="images/icon-arrow-up-right.svg" alt="" width="42" height="42">
+        </a>
+        <a class="glass-cta__secondary" href="#contact">Hire me</a>
+      </div>
+    </section>
+
+    <!-- ===================== MY SERVICES ===================== -->
+    <section class="dark-section services" id="services" aria-labelledby="services-title">
+      <img class="dark-section__bg" src="images/dark-bg.png" alt="">
+
+      <div class="services__decor" aria-hidden="true">
+        <div class="blob blob--1"><img src="images/service-blob.png" alt=""></div>
+        <div class="blob blob--2"><img src="images/service-blob.png" alt=""></div>
+        <div class="blob blob--3"><img src="images/service-blob.png" alt=""></div>
+      </div>
+
+      <div class="container container--wide">
+        <div class="section-head section-head--light">
+          <h2 class="section-title section-title--md" id="services-title">My <span class="text-accent">Services</span></h2>
+          <p class="section-head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales</p>
+        </div>
+
+        <ul class="services__cards">
+          <li>
+            <article class="service-card">
+              <img class="service-card__glass" src="images/service-card-glass.svg" alt="">
+              <div class="service-card__head">
+                <h3>UI/ UX Design</h3>
+                <img class="service-card__line" src="images/service-card-line.svg" alt="">
+              </div>
+              <div class="service-card__preview">
+                <span class="service-card__layer service-card__layer--back"></span>
+                <span class="service-card__layer service-card__layer--mid"></span>
+                <img class="service-card__shot" src="images/service-preview-ui.png" alt="Smart home app UI design preview">
+              </div>
+              <a class="round-link round-link--dark" href="#projects" aria-label="See UI/UX design projects">
+                <img src="images/icon-arrow-up-right.svg" alt="" width="72" height="72">
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="service-card">
+              <img class="service-card__glass" src="images/service-card-glass.svg" alt="">
+              <div class="service-card__head">
+                <h3>Web Design</h3>
+                <img class="service-card__line" src="images/service-card-line.svg" alt="">
+              </div>
+              <div class="service-card__preview">
+                <span class="service-card__layer service-card__layer--back"></span>
+                <span class="service-card__layer service-card__layer--mid"></span>
+                <img class="service-card__shot" src="images/service-preview-web.png" alt="Food delivery website design preview">
+              </div>
+              <a class="round-link round-link--dark" href="#projects" aria-label="See web design projects">
+                <img src="images/icon-arrow-up-right.svg" alt="" width="72" height="72">
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="service-card">
+              <img class="service-card__glass" src="images/service-card-glass.svg" alt="">
+              <div class="service-card__head">
+                <h3>Landing Page</h3>
+                <img class="service-card__line" src="images/service-card-line.svg" alt="">
+              </div>
+              <div class="service-card__preview">
+                <span class="service-card__layer service-card__layer--back"></span>
+                <span class="service-card__layer service-card__layer--mid"></span>
+                <img class="service-card__shot" src="images/service-preview-ui.png" alt="Smart home landing page design preview">
+              </div>
+              <a class="round-link round-link--dark" href="#projects" aria-label="See landing page projects">
+                <img src="images/icon-arrow-up-right.svg" alt="" width="72" height="72">
+              </a>
+            </article>
+          </li>
+        </ul>
+
+        <div class="dots" aria-hidden="true">
+          <span class="dots__item dots__item--active"></span>
+          <span class="dots__item"></span>
+          <span class="dots__item"></span>
+          <span class="dots__item"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MY WORK EXPERIENCE ===================== -->
+    <section class="experience" id="resume" aria-labelledby="experience-title">
+      <div class="container">
+        <h2 class="section-title section-title--lg experience__title" id="experience-title">
+          My <span class="text-accent">Work Experince</span>
+        </h2>
+
+        <div class="timeline">
+          <ol class="timeline__companies">
+            <li>
+              <h3>Cognizant, Mumbai</h3>
+              <p>Sep 2016- July 2020</p>
+            </li>
+            <li>
+              <h3>Sugee Pvt limited, Mumbai</h3>
+              <p>Sep 2020- July 2023</p>
+            </li>
+            <li>
+              <h3>Cinetstox, Mumbai</h3>
+              <p>Sep 2023</p>
+            </li>
+          </ol>
+
+          <div class="timeline__track" aria-hidden="true">
+            <img class="timeline__line" src="images/timeline-line.svg" alt="">
+            <img class="timeline__dot" src="images/timeline-dot-orange.svg" alt="" width="48" height="48">
+            <img class="timeline__dot" src="images/timeline-dot-dark.svg" alt="" width="48" height="48">
+            <img class="timeline__dot" src="images/timeline-dot-orange.svg" alt="" width="48" height="48">
+          </div>
+
+          <ol class="timeline__roles">
+            <li>
+              <h3>Experince Designer</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales</p>
+            </li>
+            <li>
+              <h3>UI/UX Designer</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales</p>
+            </li>
+            <li>
+              <h3>Lead UX Designer</h3>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY HIRE ME ===================== -->
+    <section class="why-hire" id="about" aria-labelledby="why-title">
+      <div class="container container--wide why-hire__inner">
+        <div class="why-hire__media">
+          <img src="images/why-hire-woman.png" alt="Jenny pointing at the text, smiling, in front of an orange shape" width="603" height="600">
+        </div>
+
+        <div class="why-hire__content">
+          <h2 class="section-title section-title--lg" id="why-title">Why <span class="text-accent">Hire me</span>?</h2>
+          <p class="why-hire__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales</p>
+
+          <dl class="stats">
+            <div class="stats__item">
+              <dt>Project Completed</dt>
+              <dd>450+</dd>
+            </div>
+            <div class="stats__item">
+              <dt>Project Completed</dt>
+              <dd>450+</dd>
+            </div>
+          </dl>
+
+          <a class="btn-outline" href="#contact">Hire me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PORTFOLIO ===================== -->
+    <section class="portfolio" id="projects" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title section-title--lg portfolio__title" id="portfolio-title">
+            Lets have a look at my <span class="text-accent">Portfolio</span>
+          </h2>
+          <a class="btn" href="#projects">See All</a>
+        </div>
+
+        <ul class="portfolio__slides">
+          <li>
+            <a class="project-card" href="#projects" aria-label="Open project Lirante">
+              <span class="project-card__arrow"><img src="images/icon-arrow-right.svg" alt="" width="32" height="32"></span>
+              <span class="project-card__name">Lirante</span>
+            </a>
+          </li>
+          <li>
+            <a class="project-card" href="#projects" aria-label="Open project Lirante">
+              <span class="project-card__arrow"><img src="images/icon-arrow-right.svg" alt="" width="32" height="32"></span>
+              <span class="project-card__name">Lirante</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="dots dots--light" aria-hidden="true">
+          <span class="dots__item dots__item--active"></span>
+          <span class="dots__item"></span>
+          <span class="dots__item"></span>
+          <span class="dots__item"></span>
+        </div>
+
+        <ul class="chips">
+          <li class="chip">Landing Page</li>
+          <li class="chip">Product Design</li>
+          <li class="chip">Animation</li>
+          <li class="chip">Glassmorphism</li>
+          <li class="chip">Cards</li>
+        </ul>
+
+        <div class="portfolio__details">
+          <h3 class="portfolio__project">
+            Lirante - Food Dilvery Solution
+            <a class="round-link round-link--orange" href="#projects" aria-label="View the Lirante project">
+              <img src="images/icon-arrow-down-right.svg" alt="" width="34" height="34">
+            </a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="dark-section testimonials" aria-labelledby="testimonials-title">
+      <img class="dark-section__bg" src="images/dark-bg.png" alt="">
+
+      <div class="container container--wide">
+        <div class="testimonials__head">
+          <h2 class="section-title section-title--md" id="testimonials-title">
+            Testimonials That<br>Speak to <span class="text-accent">My Results</span>
+          </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.</p>
+          <img class="testimonials__spark testimonials__spark--top" src="images/spark-lines.svg" alt="" width="28" height="29">
+          <img class="testimonials__spark testimonials__spark--right" src="images/spark-star-right.svg" alt="" width="26" height="26">
+          <img class="testimonials__spark testimonials__spark--left" src="images/spark-star-left.svg" alt="" width="36" height="36">
+        </div>
+      </div>
+
+      <ul class="testimonials__track">
+        <li>
+          <article class="testimonial">
+            <header class="testimonial__author">
+              <img src="images/avatar-jayesh.png" alt="Jayesh Patil" width="55" height="55">
+              <div>
+                <p class="testimonial__name">Jayesh Patil</p>
+                <p class="testimonial__role">CEO, Lirante</p>
+              </div>
+            </header>
+            <p class="testimonial__rating">
+              <span class="stars" role="img" aria-label="5 out of 5 stars">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+              </span>
+              5.0
+            </p>
+            <blockquote>consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.</blockquote>
+            <img class="testimonial__quote" src="images/quote-down.svg" alt="" width="128" height="128">
+          </article>
+        </li>
+        <li>
+          <article class="testimonial">
+            <header class="testimonial__author">
+              <img src="images/avatar-jayesh.png" alt="Jayesh Patil" width="55" height="55">
+              <div>
+                <p class="testimonial__name">Jayesh Patil</p>
+                <p class="testimonial__role">CEO, Lirante</p>
+              </div>
+            </header>
+            <p class="testimonial__rating">
+              <span class="stars" role="img" aria-label="5 out of 5 stars">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+              </span>
+              5.0
+            </p>
+            <blockquote>consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.</blockquote>
+            <img class="testimonial__quote" src="images/quote-down.svg" alt="" width="128" height="128">
+          </article>
+        </li>
+        <li>
+          <article class="testimonial">
+            <header class="testimonial__author">
+              <img src="images/avatar-jayesh.png" alt="Jayesh Patil" width="55" height="55">
+              <div>
+                <p class="testimonial__name">Jayesh Patil</p>
+                <p class="testimonial__role">CEO, Lirante</p>
+              </div>
+            </header>
+            <p class="testimonial__rating">
+              <span class="stars" role="img" aria-label="5 out of 5 stars">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+                <img src="images/icon-star.svg" alt="" width="32" height="32">
+              </span>
+              5.0
+            </p>
+            <blockquote>consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.</blockquote>
+            <img class="testimonial__quote" src="images/quote-down.svg" alt="" width="128" height="128">
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== CALL TO ACTION ===================== -->
+    <section class="cta" aria-labelledby="cta-title">
+      <h2 class="section-title section-title--lg cta__title" id="cta-title">
+        Have an Awsome Project Idea? <span class="text-accent">Let’s Discuss</span>
+      </h2>
+
+      <form class="cta__form" action="#" method="post">
+        <div class="cta__field">
+          <span class="cta__icon"><img src="images/icon-sms.svg" alt="" width="32" height="32"></span>
+          <label class="visually-hidden" for="cta-email">Email address</label>
+          <input id="cta-email" name="email" type="email" placeholder="Enter Email Address" required>
+        </div>
+        <button class="btn btn--urbanist" type="submit">Send</button>
+      </form>
+
+      <ul class="cta__badges">
+        <li><img src="images/icon-star-dark.svg" alt="" width="24" height="24">4.9/5 Average Ratings</li>
+        <li><img src="images/icon-award.svg" alt="" width="24" height="24">25+ Winning Awards</li>
+        <li><img src="images/icon-shield-tick.svg" alt="" width="24" height="24">Certified Product Designer</li>
+      </ul>
+    </section>
+
+    <!-- ===================== SKILLS MARQUEE ===================== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__strip">
+        <ul class="marquee__track">
+          <li>UX Design</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>App Design</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>Dashboard</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>Wireframe</li><li><img src="images/star-orange-alt.svg" alt="" width="34" height="34"></li>
+          <li>User Research</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>UX Design</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>App Design</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>Dashboard</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>Wireframe</li><li><img src="images/star-orange-alt.svg" alt="" width="34" height="34"></li>
+          <li>User Research</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>UX Design</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>App Design</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>Dashboard</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+          <li>Wireframe</li><li><img src="images/star-orange-alt.svg" alt="" width="34" height="34"></li>
+          <li>User Research</li><li><img src="images/star-orange.svg" alt="" width="34" height="34"></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ===================== BLOG ===================== -->
+    <section class="blog" aria-labelledby="blog-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title section-title--md section-title--bold" id="blog-title">From my<br>blog post</h2>
+          <a class="btn" href="#">See All</a>
+        </div>
+      </div>
+
+      <ul class="container container--wide blog__list">
+        <li>
+          <article class="post">
+            <div class="post__thumb">
+              <img src="images/blog-1.png" alt="Music player app interface in glassmorphism style">
+              <a class="round-link round-link--dark" href="#" aria-label="Read: Design Unraveled: Behind the Scenes of UI/UX Magic">
+                <img src="images/icon-arrow-up-right.svg" alt="" width="72" height="72">
+              </a>
+            </div>
+            <p class="chip">UI/ UX Design</p>
+            <p class="post__meta">
+              <span>Jayesh Patil</span>
+              <time datetime="2023-11-10">10 Nov, 2023</time>
+            </p>
+            <h3 class="post__title">Design Unraveled: Behind<br>the Scenes of UI/UX Magic</h3>
+          </article>
+        </li>
+        <li>
+          <article class="post">
+            <div class="post__thumb">
+              <img src="images/blog-2.png" alt="Sugee loan management dashboard on a laptop">
+              <a class="round-link round-link--dark" href="#" aria-label="Read: Sugee: Loan Management System for Rural Sector">
+                <img src="images/icon-arrow-up-right.svg" alt="" width="72" height="72">
+              </a>
+            </div>
+            <p class="chip">App Design</p>
+            <p class="post__meta">
+              <span>Jayesh Patil</span>
+              <time datetime="2023-10-09">09 Oct, 2023</time>
+            </p>
+            <h3 class="post__title">Sugee: Loan Management System for Rural Sector.</h3>
+          </article>
+        </li>
+        <li>
+          <article class="post">
+            <div class="post__thumb">
+              <img src="images/blog-3.png" alt="Cinetrade movie investment mobile app">
+              <a class="round-link round-link--dark" href="#" aria-label="Read: Cinetrade: Innovative way to invest in Digital Media">
+                <img src="images/icon-arrow-up-right.svg" alt="" width="72" height="72">
+              </a>
+            </div>
+            <p class="chip">App Design</p>
+            <p class="post__meta">
+              <span>Jayesh Patil</span>
+              <time datetime="2023-08-13">13 Aug, 2023</time>
+            </p>
+            <h3 class="post__title">Cinetrade: Innovative way to invest in Digital Media</h3>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer__top">
+        <h2>Lets Connect there</h2>
+        <a class="btn btn--medium" href="mailto:Jaycrea36@gmail.com">
+          Hire me
+          <img src="images/icon-arrow-up-right.svg" alt="" width="42" height="42">
+        </a>
+      </div>
+
+      <hr class="footer__rule">
+
+      <div class="footer__main">
+        <div class="footer__brand">
+          <a class="footer__logo" href="#home" aria-label="JCREA – home">
+            <img src="images/logo-icon.svg" alt="" width="46" height="46">
+            <img src="images/logo-text.svg" alt="JCREA" width="83" height="19">
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.</p>
+          <ul class="footer__social">
+            <li><a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="" width="24" height="24"></a></li>
+            <li><a href="#" aria-label="YouTube"><img src="images/icon-youtube.svg" alt="" width="24" height="24"></a></li>
+            <li><a href="#" aria-label="WhatsApp"><img src="images/icon-whatsapp.svg" alt="" width="24" height="24"></a></li>
+            <li><a href="#" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="" width="24" height="24"></a></li>
+            <li><a href="#" aria-label="Twitter"><img src="images/icon-twitter.svg" alt="" width="24" height="24"></a></li>
+          </ul>
+        </div>
+
+        <nav class="footer__col" aria-labelledby="footer-nav-title">
+          <h3 id="footer-nav-title">Navigation</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Project</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col">
+          <h3>Contact</h3>
+          <address>
+            <ul>
+              <li><a href="tel:+917738443636">+91 7738443636</a></li>
+              <li><a href="mailto:Jaycrea36@gmail.com">Jaycrea36@gmail.com</a></li>
+              <li><a href="#home">Portfolio-jcrea.com</a></li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer__col footer__col--newsletter">
+          <h3 id="newsletter-title">Get the latest information</h3>
+          <form class="newsletter" action="#" method="post" aria-labelledby="newsletter-title">
+            <label class="visually-hidden" for="newsletter-email">Email address</label>
+            <input id="newsletter-email" name="email" type="email" placeholder="Email Address" required>
+            <button type="submit" aria-label="Subscribe">
+              <img src="images/icon-send.svg" alt="" width="24" height="24">
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <hr class="footer__rule">
+
+      <div class="footer__bottom">
+        <p>Copyright© 2023 Jayesh. All Rights Reserved.</p>
+        <p><a href="#">User Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
